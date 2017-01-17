@@ -1,8 +1,8 @@
 <?php
 // ぐるなびアクセスキー
-const GNAVI_ACCESS_KEY = "input your gnavi access key";
-const LINE_CHANNEL_ID = "input your channel id";
-const LINE_CHANNEL_SECRET = "input your channel secret";
+const GNAVI_ACCESS_KEY = "0e6b5cdac7d83d8e9bf6ee7460dc3c0d";
+const LINE_CHANNEL_ID = "1490273991";
+const LINE_CHANNEL_SECRET = "447557a20aebb8834c81d39033a941db";
 
 $request = file_get_contents('php://input');
 $jsonObj = json_decode($request);
